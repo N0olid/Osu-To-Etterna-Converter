@@ -16,7 +16,7 @@ Built with a simple CustomTkinter interface, featuring a Popcat drop zone
   - `cdtitle.png`
 - Can patch `.osu` background events to use the generated background
 - Saves your Etterna folder and pack folder settings
-- Includes a small import log so you can see what happened instead of guessing like a medieval peasant
+- Includes a small import log so you can see what happened 
 
 ## Download
 

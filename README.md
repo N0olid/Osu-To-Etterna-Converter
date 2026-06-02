@@ -2,7 +2,7 @@
 
 A lightweight drag-and-drop desktop app for converting **osu!mania** maps into **Etterna-ready song folders**.
 
-Built with a simple CustomTkinter interface, featuring a Popcat drop zone because apparently importing rhythm game maps needed a mascot. Fair enough.
+Built with a simple CustomTkinter interface, featuring a Popcat drop zone
 
 ## Features
 

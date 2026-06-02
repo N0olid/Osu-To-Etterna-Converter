@@ -28,8 +28,6 @@ After downloading:
 2. Open the extracted `osu_converter` folder
 3. Double-click `osu converter.exe`
 
-Do not move the `.exe` out of its folder unless you enjoy breaking things for sport. The app needs the bundled `_internal` files beside it.
-
 ## How to use
 
 1. Open `osu converter.exe`

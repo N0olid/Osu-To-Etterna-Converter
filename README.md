@@ -54,7 +54,7 @@ The app supports:
 folders containing .osu files
 ```
 
-Only osu!mania charts are imported. Regular osu!standard, taiko, and catch charts are skipped because Etterna is not here to solve every rhythm game problem mankind has invented.
+Only osu!mania charts are imported. Regular osu!standard, taiko, and catch charts are skipped.
 
 ## Output location
 
@@ -76,53 +76,6 @@ Click the gear icon to change:
 - Patch `.osu` background event to `background.png`
 
 Settings are saved automatically.
-
-## Building from source
-
-This project is written in Python.
-
-Install requirements:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run from source:
-
-```bash
-python src/popcat_importer/main.py
-```
-
-Build with PyInstaller:
-
-```bash
-pyinstaller --noconfirm --clean --onedir --windowed ^
-  --name "osu converter" ^
-  --paths "src" ^
-  --add-data "src\popcat_importer\assets;assets" ^
-  --collect-all customtkinter ^
-  --collect-all tkinterdnd2 ^
-  src\popcat_importer\main.py
-```
-
-On Windows, the included `START_HERE.bat` can build the app automatically if you are working from the source version.
-
-## Requirements
-
-For running the built release:
-
-- Windows
-- No Python install required if using the release build
-
-For building from source:
-
-- Python 3.10+
-- CustomTkinter
-- tkinterdnd2
-- Pillow
-- PyInstaller
-
-## Notes
 
 If imported songs or artwork do not show up in Etterna:
 
